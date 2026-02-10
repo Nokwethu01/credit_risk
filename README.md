@@ -13,5 +13,6 @@ Financial institutions use credit scoring to determine if a loan should be grant
 - **Backend:** FastAPI, Uvicorn (ASGI server)
 - **Machine Learning:** Scikit-learn, Pandas, Joblib
 - **Frontend:** HTML5, CSS3, JavaScript (Fetch API)
+<img width="1128" height="783" alt="Screenshot 2026-02-10 122312" src="https://github.com/user-attachments/assets/304057ee-9dae-4323-a9e8-d3cbe2c5c3f7" />
 
  
