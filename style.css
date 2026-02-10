@@ -1,0 +1,116 @@
+/* General layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Form styling */
+.form-container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.form-container h1 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.subtitle {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Submit button */
+button[type="submit"] {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Result card styling */
+.risk-card {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.risk-card.low-risk {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.risk-card.high-risk {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.hidden { display: none; }
+
+#risk-icon {
+    font-size: 24px;
+}
+
+/* Probability bar container */
+.probability-container {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.probability-bar {
+    height: 100%;
+    width: 0%;
+    border-radius: 5px;
+    transition: width 0.5s ease;
+}
+
+
+
+
+
